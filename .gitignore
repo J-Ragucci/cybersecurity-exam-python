@@ -1,0 +1,17 @@
+# Ambiente virtuale Python
+.venv/
+
+# Cache e file compilati Python
+__pycache__/
+*.pyc
+
+# File di ambiente/segreti
+.env
+
+# File inutili generati da macOS
+.DS_Store
+**/.DS_Store
+
+# Cartelle di output temporaneo
+output/
+tmp/
