@@ -15,3 +15,11 @@ __pycache__/
 # Cartelle di output temporaneo
 output/
 tmp/
+
+# Impostazioni dell'IDE (Pycharm/JetBrains)
+.idea/
+
+# File temporanei di sistema e Office
+.~lock.*
+.DS_Store
+*.tmp
