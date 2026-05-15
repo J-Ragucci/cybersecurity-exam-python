@@ -18,8 +18,11 @@ def calcola_hash_file(percorso_file):
 # --- SIMULAZIONE SCENARIO ---
 # Immagina di aver scaricato due file: "ubuntu_originale.iso" e "ubuntu_hackerato.iso"
 # Creiamo due file finti per l'esempio
-with open("doc_legittimo.txt", "w") as f: f.write("Contratto v1.0")
-with open("doc_fake.txt", "w") as f: f.write("Contratto v1.0 con Backdoor")  # Basta un carattere diverso
+with open("doc_legittimo.txt", "w") as f: 
+    f.write("Contratto v1.0")
+    
+with open("doc_fake.txt", "w") as f: 
+    f.write("Contratto v1.0 con Backdoor")  # Basta un carattere diverso
 
 # 1. Calcoliamo gli hash (le impronte digitali)
 hash_legittimo = calcola_hash_file("doc_legittimo.txt")
